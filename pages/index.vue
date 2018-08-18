@@ -6,8 +6,8 @@
   <!--End Cover Image-->
   <!--Begin Heading-->
   <v-layout column align-center>
-    <p class='title font-weight-bold' aria-label='Company Name'>{{ companyname }}</p>
-    <p class='title font-weight-bold' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</p>    
+    <div class='title font-weight-bold' aria-label='Company Name'>{{ companyname }}</div>
+    <div class='title font-weight-bold' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</div>    
   </v-layout>
   <!--End Heading-->
   <!-- Begin Contact -->    
@@ -35,7 +35,7 @@
       </v-toolbar-title>
     </v-toolbar>
     <v-card-title class='title font-weight-bold'>
-      {{ Hours1 }}
+      <div class='title font-weight-bold'>{{ Hours1 }}</div>      
     </v-card-title>
     <v-card-title class='subheading font-weight-bold'>
       {{ Hours2 }}

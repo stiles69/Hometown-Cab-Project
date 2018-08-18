@@ -1,0 +1,42 @@
+.HometownImage {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.HometownMenu {
+  max-width: 180px;
+  color: #ac8f0f;
+}
+HometownTestimonials {
+  padding-bottom: 0;
+}
+HometownTestimonialsSmall {
+  font-weight: 500;
+  font-size: 14px;
+  font-style: italic;
+}
+HometownFooter {
+  height: auto;
+  text-align: center;
+  font-size: 14px;
+}
+.Italic {
+  font-style: italic;
+}
+HometownTestimonialContent {
+  padding-left: 50px;
+  font-style: italic;
+  font-size: 20px;
+}
+HometownToolbarTitle {
+  font-weight: 600;
+}
+HometownLink {
+  color: #ac8f0f;
+}
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
