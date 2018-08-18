@@ -8,9 +8,9 @@ module.exports = {
 
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-K2PTPX5'}],
+    '@nuxtjs/sitemap',    
     '@nuxtjs/vuetify',
+    '@nuxtjs/google-analytics',
     ['nuxt-imagemin', {
       optipng: { optimizationLevel: 5},
       gifsicle: { optimationLevel: 2}
@@ -20,11 +20,14 @@ module.exports = {
 
   //Workbox
   workbox: {
+    importScripts: [
+      'https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js'
+    ],
     runtimeCaching: [
       {
       urlPattern: 'https://hometown.cab/.*',
       // Defaults to networkFirst if omitted
-      handler: 'cacheFirst',
+      handler: 'networkFirst',
       // Defaults to GET if omitted
       method: 'GET'
       }
@@ -65,14 +68,19 @@ module.exports = {
   vuetify: {
     materialIcons: true,
     theme: {
-      primary: '#FDD835',
-      secondary: '#FFF59D',
-      accent: '#FFD600',
-      error: '#f44336',
-      warning: '#FF5722',
-      info: '#2196f3',
-      success: '#4caf50'
+      primary: "#FDD835",
+      secondary: "#FFECB3",
+      accent: "#F9A825",
+      error: "#f44336",
+      warning: "#FFAB91",
+      info: "#2196f3",
+      success: "#4caf50"
     }
+  },
+
+  // Google Analytics
+  'google-analytics': {
+    id: 'US-107490220-1'
   },
 
   
@@ -87,7 +95,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Hometown Cab Newton Iowa 50208 Jasper County Iowa' },
       { name: 'title', content: 'Hometown Cab App' },
       { name: 'author', content: 'Rogue Designs <admin@roguedesigns.us>' },
-      { name: 'theme_color', content: '#42f468' },
+      { name: 'theme_color', content: '#FDD835' },
       { name: 'lang', content: 'en' },
       { name: 'og:url', content: 'https://hometown.cab' }
     ],
@@ -98,7 +106,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#FDD835' },
+  loading: { color: '#FFECB3' },
   /*
   ** Build configuration
   */

@@ -1,6 +1,6 @@
 {
   "name": "hometown-cab",
-  "version": "10.0.0",
+  "version": "14.0.0",
   "description": "Hometown Cab Newton IA 50208 Jasper County",
   "author": "Rogue Designs <admin@roguedesigns.us>",
   "private": true,
@@ -18,7 +18,7 @@
     "nuxt-imagemin": "^0.1.2"
   },
   "devDependencies": {
-    "@nuxtjs/google-tag-manager": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/vuetify": "^0.4.2",
     "babel-eslint": "^8.2.1",
@@ -29,6 +29,7 @@
     "eslint-plugin-vue": "^4.0.0",
     "style-loader": "^0.22.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.16.5"
   }
 }

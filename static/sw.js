@@ -1,4 +1,4 @@
-importScripts('/_nuxt/workbox.3de3418b.js')
+importScripts('/_nuxt/workbox.3de3418b.js', 'https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js')
 
 const workboxSW = new self.WorkboxSW({
   "cacheId": "hometown-cab",
@@ -8,20 +8,20 @@ const workboxSW = new self.WorkboxSW({
 
 workboxSW.precache([
   {
-    "url": "/_nuxt/app.1e4dbac501f49b2d4863.js",
-    "revision": "0a29a7b3928710f19f1d640d0c7ed4f9"
+    "url": "/_nuxt/app.73126295e65cf0bc24a6.js",
+    "revision": "8961bbbbe99144033ffe71ee8e03700f"
   },
   {
-    "url": "/_nuxt/layouts/default.4d7331070cc3a827754c.js",
-    "revision": "1bd0ab716b6978dbd8c39204cf88d0c0"
+    "url": "/_nuxt/layouts/default.2940d9adc8d7582ec152.js",
+    "revision": "315a755cda31cddbbabceb915a890d0c"
   },
   {
-    "url": "/_nuxt/manifest.6c55f1cdc5ed291b1149.js",
-    "revision": "aabb6e5862672242df7b0582d999083b"
+    "url": "/_nuxt/manifest.1626aa01928a579a1e1a.js",
+    "revision": "a233219be5879189420bb85cb2c0ebb8"
   },
   {
-    "url": "/_nuxt/pages/index.01fbc6d8a254bc435312.js",
-    "revision": "5be48a4318d27498219bb12a12532707"
+    "url": "/_nuxt/pages/index.5c2975990209d187515c.js",
+    "revision": "f6fb59c22b6b871b4961b6d97424f263"
   },
   {
     "url": "/_nuxt/vendor.d7ab97ee3f9eb89fbed3.js",
@@ -34,5 +34,5 @@ workboxSW.router.registerRoute(new RegExp('/_nuxt/.*'), workboxSW.strategies.cac
 
 workboxSW.router.registerRoute(new RegExp('/.*'), workboxSW.strategies.networkFirst({}), 'GET')
 
-workboxSW.router.registerRoute(new RegExp('https://hometown.cab/.*'), workboxSW.strategies.cacheFirst({}), 'GET')
+workboxSW.router.registerRoute(new RegExp('https://hometown.cab/.*'), workboxSW.strategies.networkFirst({}), 'GET')
 
