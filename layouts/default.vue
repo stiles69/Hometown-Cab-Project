@@ -12,7 +12,7 @@
     </v-navigation-drawer>
     <v-toolbar app color='primary' class='white--text'>
       <v-toolbar-side-icon @click.stop='drawer = !drawer' aria-label='Navigation Button'></v-toolbar-side-icon>
-      <v-toolbar-title v-text='title' class='black--text HometownToolbar'></v-toolbar-title>
+      <v-toolbar-title v-text='title' class='black--text'></v-toolbar-title>
       <v-spacer></v-spacer>     
     </v-toolbar>
     <v-content>

@@ -67,6 +67,7 @@ module.exports = {
   // Vuetify
   vuetify: {
     materialIcons: true,
+    css: true,
     theme: {
       primary: "#FDD835",
       secondary: "#FFECB3",
@@ -121,7 +122,11 @@ module.exports = {
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
-        })
+        },
+      {
+        test: /\.styl$/,
+        loader: ['style-loader', 'css-loader', 'stylus-loader']
+      })
       }
     }
   }

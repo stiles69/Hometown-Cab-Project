@@ -6,8 +6,8 @@
   <!--End Cover Image-->
   <!--Begin Heading-->
   <v-layout column align-center>
-    <p class='title' aria-label='Company Name'>{{ companyname }}</p>
-    <p class='title' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</p>    
+    <p class='title font-weight-bold' aria-label='Company Name'>{{ companyname }}</p>
+    <p class='title font-weight-bold' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</p>    
   </v-layout>
   <!--End Heading-->
   <!-- Begin Contact -->    
@@ -34,25 +34,25 @@
         Hours of Operation
       </v-toolbar-title>
     </v-toolbar>
-    <v-card-title class='title'>
+    <v-card-title class='title font-weight-bold'>
       {{ Hours1 }}
     </v-card-title>
-    <v-card-title class='subheading'>
+    <v-card-title class='subheading font-weight-bold'>
       {{ Hours2 }}
     </v-card-title>
     <v-divider></v-divider>
-    <v-card-title class='title'>
+    <v-card-title class='title font-weight-bold'>
       {{ Hours3 }}
     </v-card-title>
-    <v-card-title class='subheading'>
+    <v-card-title class='subheading font-weight-bold'>
       {{ Hours4 }}
     </v-card-title>
    <v-divider></v-divider>
-    <v-card-title class='subheading Italic'>
+    <v-card-title class='subheading font-weight-bold'>
       Open 7 Days a Week
     </v-card-title>
     <v-divider></v-divider>
-    <v-card-title class='subheading Italic'>
+    <v-card-title class='subheading font-weight-bold font-italic'>
       We take advance reservations for those with Late/Early work schedules.
     </v-card-title>
   </v-card>
@@ -62,21 +62,21 @@
     <v-toolbar dark color='primary'>
       <v-toolbar-title class='title black--text' aria-label='Toolbar Pricing'>Pricing</v-toolbar-title>
     </v-toolbar>
-    <v-card-title class='subheading'>{{ oneWayPrice }}</v-card-title>
-    <v-card-title class='subheading'>{{ roundTripPrice }}</v-card-title>
-    <v-card-title class='subheading'>{{ additionalStopPrice }}</v-card-title>
+    <v-card-title class='subheading font-weight-bold'>{{ oneWayPrice }}</v-card-title>
+    <v-card-title class='subheading font-weight-bold'>{{ roundTripPrice }}</v-card-title>
+    <v-card-title class='subheading font-weight-bold'>{{ additionalStopPrice }}</v-card-title>
     <hr>
-    <v-card-title class='subheading Italic'>
+    <v-card-title class='subheading font-weight-bold font-italic'>
       *With a wait time of up to 15 minutes. ($3 Additional charge if over 15 minutes.)
     </v-card-title>
-    <v-card-title class='subheading'>
+    <v-card-title class='subheading font-weight-bold'>
       Call dispatch for out of town pricing and availability.
     </v-card-title>
-    <v-card-title class='subheading'>
+    <v-card-title class='subheading font-weight-bold'>
       Keep in mind we offer multiple specials for weekly rates & discount coupons that you can ask your driver about or dispatch.
     </v-card-title>
     <hr>
-  <v-card-title class='subheading Italic'>
+  <v-card-title class='subheading font-weight-bold font-italic'>
     So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.
   </v-card-title>
   </v-card>
@@ -84,7 +84,7 @@
   <!-- Begin Specials -->
   <v-card id='specials' raised color='white' height='auto'>
   <v-toolbar dark color='primary' aria-label='Toolbar Specials'>
-    <v-toolbar-title class='title black--text'>
+    <v-toolbar-title class='title font-weight-bold black--text'>
       Specials
     </v-toolbar-title>
   </v-toolbar>
@@ -98,10 +98,10 @@
     <v-toolbar dark color='primary' aria-label='Toolbar Testimonials'>
       <v-toolbar-title class='title black--text'>Testimonials</v-toolbar-title>
     </v-toolbar>
-    <v-card-title class='HometownTestimonials'>
+    <v-card-title class='title font-weight-bold font-italic'>
       Kelly Jo Zach
     </v-card-title>
-    <v-card-text class='HometownTestimonialsContent'>
+    <v-card-text class='blockquote font-weight-bold font-italic'>
     Hometown Cab was my 'go to' cab, as I was searching for a solution to an issue with my license and a car needing lots of mechanical work. I contacted Bradd, and we agreed on an amount that worked for my budget and was fair to all parties involved. Hometown Cab is very good at offering monthly specials. They also cater to the shifts that manufacturers and businesses
                           schedule that may not fit within normal work hours.
     The kindness I receive from Bradd and Chad has been very much appreciated. They always go above and beyond expectations that I had for a cab service. They assist elderly people to door with their groceries, or purchases. They truly
@@ -111,7 +111,7 @@
     Chad is quiet and kind. He has a strong professional personality. He cares greatly about the elderly clients, that their every concern is met with a smile and impeccable service.
           This cab service has set the bar very high. Bradd and Chad, not only offer safe transportation but excel in service, cleanliness, and compliance.
     </v-card-text>
-    <v-card-title class='HometownTestimonials'>
+    <v-card-title class='title font-weight-bold font-italic'>
       Kudos. HOMETOWN CAB!!!!
     </v-card-title>
   </v-card>
