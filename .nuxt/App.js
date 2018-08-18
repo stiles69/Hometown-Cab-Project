@@ -3,7 +3,7 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 import '../node_modules/vuetify/dist/vuetify.css'
 
-import '../assets/css/hometown.css'
+import '../assets/style/app.styl'
 
 
 let layouts = {

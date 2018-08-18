@@ -3,13 +3,13 @@
   "all": [
     "icons/icon_120.8cMy4ycy230.png",
     "img/Cover-1920x950.3d7e172.png",
-    "pages/index.3c985c7a8f35137f75e9.js",
+    "pages/index.4c0ab73e330b819c6046.js",
     "vendor.9d8942fb68ce18e19210.js",
-    "app.3cc37b1bcef162a72bc0.js",
-    "manifest.ed7d1724f3303144578e.js",
+    "app.a607d638ead60472802a.js",
+    "manifest.0557f735bb8bdb2445ec.js",
     "LICENSES",
     "icons/icon_16.8cMy4ycy230.png",
-    "layouts/default.40670b7dca50dd682bd2.js",
+    "layouts/default.74121e086e30fe6e4c1b.js",
     "icons/icon_144.8cMy4ycy230.png",
     "icons/icon_152.8cMy4ycy230.png",
     "icons/icon_192.8cMy4ycy230.png",
@@ -20,13 +20,13 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.ed7d1724f3303144578e.js",
+    "manifest.0557f735bb8bdb2445ec.js",
     "vendor.9d8942fb68ce18e19210.js",
-    "app.3cc37b1bcef162a72bc0.js"
+    "app.a607d638ead60472802a.js"
   ],
   "async": [
-    "pages/index.3c985c7a8f35137f75e9.js",
-    "layouts/default.40670b7dca50dd682bd2.js"
+    "pages/index.4c0ab73e330b819c6046.js",
+    "layouts/default.74121e086e30fe6e4c1b.js"
   ],
   "modules": {
     "16233649": [
@@ -49,9 +49,6 @@
     ],
     "3d43e34c": [
       3
-    ],
-    "6e57c219": [
-      4
     ],
     "9a765c66": [
       3
@@ -357,6 +354,9 @@
     "0ac4ea72": [
       3
     ],
+    "37fd7613": [
+      4
+    ],
     "2210fbc2": [
       3
     ],
@@ -399,6 +399,12 @@
     "646ce495": [
       3
     ],
+    "a75e1472": [
+      3
+    ],
+    "2ea586e5": [
+      3
+    ],
     "68f21116": [
       3
     ],
@@ -410,9 +416,6 @@
     ],
     "13c0816c": [
       4
-    ],
-    "2ea586e5": [
-      3
     ],
     "c17c3bee": [
       3
@@ -435,9 +438,6 @@
     "3e94d213": [
       3
     ],
-    "10c573fa": [
-      4
-    ],
     "6b32f572": [
       3
     ],
@@ -454,9 +454,6 @@
       4
     ],
     "4655f6a2": [
-      3
-    ],
-    "a75e1472": [
       3
     ],
     "2e82ebaf": [
@@ -515,6 +512,9 @@
     ],
     "2bfa176c": [
       3
+    ],
+    "4300cea6": [
+      4
     ],
     "493a7297": [
       4
