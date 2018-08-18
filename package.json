@@ -1,0 +1,34 @@
+{
+  "name": "hometown-cab",
+  "version": "10.0.0",
+  "description": "Hometown Cab Newton IA 50208 Jasper County",
+  "author": "Rogue Designs <admin@roguedesigns.us>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.0.8",
+    "nuxt": "^1.0.0",
+    "nuxt-imagemin": "^0.1.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-tag-manager": "^2.0.0",
+    "@nuxtjs/sitemap": "^0.1.1",
+    "@nuxtjs/vuetify": "^0.4.2",
+    "babel-eslint": "^8.2.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "style-loader": "^0.22.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
