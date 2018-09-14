@@ -2,7 +2,7 @@
   <v-app>  
   <!-- Begin Main Content -->
   <!--Begin Cover Image-->
-  <img src='../assets/img/Cover.png' class='HometownImage' width='100%' aria-label='Cover Image' />    
+  <img src='/img/Cover.png' class='HometownImage' width='100%' aria-label='Cover Image' />    
   <!--End Cover Image-->
   <!--Begin Heading-->
   <v-layout column align-center>
