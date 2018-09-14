@@ -1,2 +1,2 @@
-const version = "47.0.0"
+const version = "48.0.0"
 export default { version }
