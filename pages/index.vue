@@ -17,7 +17,9 @@
     <v-toolbar dark color='primary'>
       <v-toolbar-title class='title black--text' aria-label='Toolbar News'>News</v-toolbar-title>
     </v-toolbar>
-      <div class='HometownTitle'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>    
+    <v-card-title>
+      <div class='text-xs-center headline'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
+    </v-card-title>    
   </v-card>
   <!--End News-->
   <!-- Begin Contact -->    
