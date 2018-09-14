@@ -3,13 +3,13 @@
   "all": [
     "icons/icon_120.8cMy4ycy230.png",
     "img/Cover.43adf42.png",
-    "pages/index.2402c301770901d5fccb.js",
+    "pages/index.a37612dbf16caf577c88.js",
     "vendor.a287b8957aa73de415dd.js",
-    "app.61ed8a4caaf1bcae2cb8.js",
-    "manifest.444ba6639339715f0e26.js",
+    "app.a4da1384188e00a09801.js",
+    "manifest.86e9d3688d3a9d677b94.js",
     "LICENSES",
     "icons/icon_64.8cMy4ycy230.png",
-    "layouts/default.24765538291ad9d4190c.js",
+    "layouts/default.e4a06ffd503df8494031.js",
     "icons/icon_144.8cMy4ycy230.png",
     "icons/icon_152.8cMy4ycy230.png",
     "icons/icon_192.8cMy4ycy230.png",
@@ -20,13 +20,13 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.444ba6639339715f0e26.js",
+    "manifest.86e9d3688d3a9d677b94.js",
     "vendor.a287b8957aa73de415dd.js",
-    "app.61ed8a4caaf1bcae2cb8.js"
+    "app.a4da1384188e00a09801.js"
   ],
   "async": [
-    "pages/index.2402c301770901d5fccb.js",
-    "layouts/default.24765538291ad9d4190c.js"
+    "pages/index.a37612dbf16caf577c88.js",
+    "layouts/default.e4a06ffd503df8494031.js"
   ],
   "modules": {
     "16233649": [
@@ -133,6 +133,9 @@
     ],
     "2fd753f2": [
       3
+    ],
+    "33f38158": [
+      4
     ],
     "735015f8": [
       3
@@ -390,6 +393,9 @@
     "68f21116": [
       3
     ],
+    "7386223e": [
+      4
+    ],
     "12dacbd6": [
       3
     ],
@@ -492,9 +498,6 @@
     "67c8b2b7": [
       3
     ],
-    "2ea586e5": [
-      3
-    ],
     "8eb7f928": [
       3
     ],
@@ -517,6 +520,9 @@
       4
     ],
     "7abf3b65": [
+      3
+    ],
+    "2ea586e5": [
       3
     ]
   }

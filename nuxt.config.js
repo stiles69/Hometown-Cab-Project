@@ -141,13 +141,26 @@ module.exports = {
       { name: 'robots', content: 'noimageindex' },
       { name: 'googlebot', content: 'noimageindex' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+      }
+    ]
   },
 
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#FFECB3' },
+
+  /*
+ ** Global CSS
+ */
+  css: ['vuetify/src/stylus/main.styl'],
+
   /*
   ** Build configuration
   */
