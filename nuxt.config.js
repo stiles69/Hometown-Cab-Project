@@ -143,12 +143,12 @@ module.exports = {
       { name: 'msvalidate.01', content: '72C489E3AD71ECCCBF1CE821FAB81C3F' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      /* {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
-      }
+      } */
     ]
   },
 
