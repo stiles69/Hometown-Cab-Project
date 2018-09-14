@@ -28,7 +28,7 @@ module.exports = {
     author: 'admin@roguedesigns.us',
     description:
       'Hometown Cab Taxi Newton Iowa 50208 Jasper County Iowa 515-210-4111 641-275-9501',
-    theme_color: '#FDD835',
+    theme_color: '#efe79c',
     lang: 'en',
     ogType: 'website',
     ogSiteName: 'Hometown Cab',
@@ -46,7 +46,7 @@ module.exports = {
     shortname: 'HometownCab',
     display: 'standalone',
     start_url: '.',
-    background_color: '#FDF3D5',
+    background_color: '#efe79c',
     icons: [
       {
         src: '/icons/icon-32x32.png',
@@ -154,7 +154,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#FFECB3' },
+  loading: { color: '#efe79c' },
 
   /*
  ** Global CSS
