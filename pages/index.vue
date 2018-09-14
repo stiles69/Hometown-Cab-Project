@@ -16,10 +16,11 @@
   <v-card id='news' raised color='white' height='auto'>
     <v-toolbar dark color='primary'>
       <v-toolbar-title class='title black--text' aria-label='Toolbar News'>News</v-toolbar-title>
-    </v-toolbar>
-    <v-card-title>
-      <div class='text-xs-center headline'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
-    </v-card-title>    
+    </v-toolbar>   
+    <v-card-text>
+      <div class='hidden-sm-and-down text-xs-center headline font-weight-medium'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
+      <div class='hidden-md-and-up text-xs-center title font-weight-medium'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
+    </v-card-text>
   </v-card>
   <!--End News-->
   <!-- Begin Contact -->    
