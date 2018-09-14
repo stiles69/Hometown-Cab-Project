@@ -134,10 +134,10 @@ module.exports = {
   plugins: ['~plugins/vuetify.js'],
 
   css: [
-	  {
-		  src: ('./assets/css/app.styl'),
-	  lang: 'styl'
-	  }
+    {
+      src: './assets/css/app.styl',
+      lang: 'styl'
+    }
   ],
   /*
   ** Customize the progress bar color
