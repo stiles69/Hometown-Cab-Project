@@ -1,4 +1,4 @@
-importScripts('/_nuxt/workbox.3de3418b.js', 'https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js')
+importScripts('/_nuxt/workbox.3de3418b.js')
 
 const workboxSW = new self.WorkboxSW({
   "cacheId": "hometown-cab",
@@ -12,12 +12,12 @@ workboxSW.precache([
     "revision": "9d89c9c19fe362487280223e28b1b5cf"
   },
   {
-    "url": "/_nuxt/layouts/default.6d6c7221171447dd2b0e.js",
+    "url": "/_nuxt/layouts/default.c5755e0721fd3a1e0211.js",
     "revision": "c5a98b843bf4389005a4bb248feb37c7"
   },
   {
-    "url": "/_nuxt/manifest.99ccaee179138826ec09.js",
-    "revision": "1d53be0cd25581f347780f38a084d1cc"
+    "url": "/_nuxt/manifest.0e39ff041f15b26c8cfd.js",
+    "revision": "03afe127ce338f943e8c4773b0ff2b51"
   },
   {
     "url": "/_nuxt/pages/index.71e2c3503da0f25d8e85.js",
@@ -33,6 +33,4 @@ workboxSW.precache([
 workboxSW.router.registerRoute(new RegExp('/_nuxt/.*'), workboxSW.strategies.cacheFirst({}), 'GET')
 
 workboxSW.router.registerRoute(new RegExp('/.*'), workboxSW.strategies.networkFirst({}), 'GET')
-
-workboxSW.router.registerRoute(new RegExp('https://hometown.cab/.*'), workboxSW.strategies.networkFirst({}), 'GET')
 

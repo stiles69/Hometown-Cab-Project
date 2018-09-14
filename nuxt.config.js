@@ -21,20 +21,12 @@ module.exports = {
   ],
 
   //Workbox
-  workbox: {
+  /* workbox: {
     importScripts: [
       'https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js'
     ],
-    runtimeCaching: [
-      {
-        urlPattern: 'https://hometown.cab/.*',
-        // Defaults to networkFirst if omitted
-        handler: 'networkFirst',
-        // Defaults to GET if omitted
-        method: 'GET'
-      }
-    ]
-  },
+   
+  }, */
 
   // Manifest
   manifest: {

@@ -93,7 +93,7 @@ export default {
 			roundTripPrice: Constants.roundtripprice,
 			additionalStopPrice: Constants.additionalstopprice,
 			Owner: Constants.ownername,
-			Version: Versioner.version
+			version: Versioner.version
 		}
 	}
 }

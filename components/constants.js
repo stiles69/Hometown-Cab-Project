@@ -22,6 +22,5 @@ export default {
   roundtripprice,
   additionalstopprice,
   companyslogan,
-  hours,
-  version
+  hours
 }
