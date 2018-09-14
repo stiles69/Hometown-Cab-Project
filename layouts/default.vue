@@ -4,15 +4,15 @@
       <v-list>        
         <v-list-tile value='true' v-for='(item, i) in items' v-bind:key='i' >
             <v-list-tile-action class='HometownLink'>
-              <div class='HometownLink' @click="$vuetify.goTo(item.target, item.options)"><v-icon v-html='item.icon' aria-label='Navigation Button' class='HometownLink'></v-icon></div>                
+              <div class='HometownLink' @click='$vuetify.goTo(item.target, item.options)'><v-icon v-html='item.icon' aria-label='Navigation Button' class='HometownLink'></v-icon></div>                
             </v-list-tile-action>
-          <div class='HometownLink' @click="$vuetify.goTo(item.target, item.options)"><v-list-tile-title v-text='item.title' aria-label='Navigation Title' class='HometownLink'></v-list-tile-title></div>
+          <div class='HometownLink' @click='$vuetify.goTo(item.target, item.options)'><v-list-tile-title v-text='item.title' aria-label='Navigation Title' class='HometownLink'></v-list-tile-title></div>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar app color='primary' class='white--text'>
       <v-toolbar-side-icon @click.stop='drawer = !drawer' aria-label='Navigation Button'></v-toolbar-side-icon>
-      <v-toolbar-title v-text='title' class='black--text HometownTextBold'></v-toolbar-title>
+      <v-toolbar-title v-text='title' class='black--text'></v-toolbar-title>
       <v-spacer></v-spacer>     
     </v-toolbar>
     <v-content>
@@ -20,11 +20,16 @@
     </v-content>  
      <v-footer dark color='primary' class='black--text' height='auto' aria-label='Footer'>
       <v-layout column>
-        <div class='text-xs-center HometownFooterText' aria-label='Company Name'>Hometown Cab</div>        
-        <div class='hidden-sm-and-down text-xs-center HometownFooterText' aria-label='Owned and Operated by'>Owned and Operated by</div>
-        <div class='hidden-sm-and-down text-xs-center HometownFooterText' aria-label='Owner'>{{ Owner }}</div>
-        <div class='text-xs-center HometownFooterText' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
-        <div class='text-xs-center HometownFooterText' aria-label='Version'>Version {{ Version }}</div>
+        <div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Company Name'>Hometown Cab</div>
+				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Owned and Operated by'>Owned and Operated by</div>
+				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Owner'>{{ Owner }}</div>
+				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
+        <div class='hidden-sm-and-down text-xs-center font-weight-medium' aria-label='Version'>Version {{ Version }}</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Company Name'>Hometown Cab</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Owned and Operated by'>Owned and Operated by</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Owner'>{{ Owner }}</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
+        <div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Version'>Version {{ Version }}</div>
       </v-layout>
     </v-footer>
   </v-app>
