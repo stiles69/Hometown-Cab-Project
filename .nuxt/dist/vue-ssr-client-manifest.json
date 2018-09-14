@@ -1,25 +1,32 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
+    "icons/icon_120.8cMy4ycy230.png",
     "img/Cover.43adf42.png",
-    "layouts/default.0803a0d3358f73ad4bc6.js",
     "pages/index.2402c301770901d5fccb.js",
-    "vendor.2c3d29cb6a98c7a198df.js",
-    "app.91a4adb8937bd6fb2adf.js",
-    "manifest.56ab42b2e005b4e38c6f.js",
+    "vendor.a287b8957aa73de415dd.js",
+    "app.61ed8a4caaf1bcae2cb8.js",
+    "manifest.444ba6639339715f0e26.js",
     "LICENSES",
-    "manifest.a2dfd1da.json",
+    "icons/icon_64.8cMy4ycy230.png",
+    "layouts/default.24765538291ad9d4190c.js",
+    "icons/icon_144.8cMy4ycy230.png",
+    "icons/icon_152.8cMy4ycy230.png",
+    "icons/icon_192.8cMy4ycy230.png",
+    "icons/icon_384.8cMy4ycy230.png",
+    "icons/icon_512.8cMy4ycy230.png",
+    "manifest.ed1226c4.json",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.56ab42b2e005b4e38c6f.js",
-    "vendor.2c3d29cb6a98c7a198df.js",
-    "app.91a4adb8937bd6fb2adf.js"
+    "manifest.444ba6639339715f0e26.js",
+    "vendor.a287b8957aa73de415dd.js",
+    "app.61ed8a4caaf1bcae2cb8.js"
   ],
   "async": [
-    "layouts/default.0803a0d3358f73ad4bc6.js",
-    "pages/index.2402c301770901d5fccb.js"
+    "pages/index.2402c301770901d5fccb.js",
+    "layouts/default.24765538291ad9d4190c.js"
   ],
   "modules": {
     "16233649": [
@@ -39,29 +46,23 @@
     ],
     "3c47b5bc": [
       2,
-      0
+      1
     ],
     "3d43e34c": [
       3
     ],
     "b86b8128": [
-      1
+      8
     ],
     "9a765c66": [
       3
     ],
-    "6d98de9a": [
-      4
-    ],
     "64027c52": [
       3
     ],
-    "19bfd265": [
-      4
-    ],
     "519aa3a6": [
       2,
-      0
+      1
     ],
     "23c1b9fe": [
       3
@@ -78,9 +79,6 @@
     "79db6a40": [
       4
     ],
-    "3ee04430": [
-      1
-    ],
     "880ff7fa": [
       3
     ],
@@ -92,7 +90,7 @@
     ],
     "9c7d1bba": [
       2,
-      0
+      1
     ],
     "4781309c": [
       3
@@ -115,9 +113,6 @@
     "46c2f46e": [
       3
     ],
-    "29a0558e": [
-      4
-    ],
     "fe0c66b8": [
       3
     ],
@@ -133,13 +128,16 @@
     "1859381d": [
       3
     ],
+    "463e0a10": [
+      8
+    ],
     "2fd753f2": [
       3
     ],
     "735015f8": [
       3
     ],
-    "90ef504a": [
+    "5557a040": [
       4
     ],
     "76e7a9de": [
@@ -167,7 +165,7 @@
       3
     ],
     "b46e7fb6": [
-      1
+      8
     ],
     "34fc3881": [
       3
@@ -187,9 +185,6 @@
     "1eaad5e8": [
       4
     ],
-    "57eae7c2": [
-      3
-    ],
     "bc75d2e8": [
       3
     ],
@@ -201,6 +196,9 @@
     ],
     "2271f523": [
       3
+    ],
+    "675d42bf": [
+      4
     ],
     "4f2b2090": [
       3
@@ -221,7 +219,7 @@
       3
     ],
     "3e48381a": [
-      1
+      8
     ],
     "37ffba18": [
       3
@@ -244,7 +242,7 @@
     "3be328c6": [
       4
     ],
-    "434c6ffb": [
+    "c414b4d8": [
       4
     ],
     "0a5e8f2a": [
@@ -319,6 +317,9 @@
     "9bca8e66": [
       3
     ],
+    "286a0e38": [
+      3
+    ],
     "66b033e4": [
       4
     ],
@@ -330,10 +331,13 @@
     ],
     "144db810": [
       2,
-      0
+      1
     ],
     "2ab9aaa3": [
       3
+    ],
+    "5a7f7361": [
+      4
     ],
     "18bae334": [
       3
@@ -355,6 +359,9 @@
     ],
     "c5d6ce2a": [
       3
+    ],
+    "aac56ffe": [
+      4
     ],
     "7733f37e": [
       3
@@ -386,8 +393,8 @@
     "12dacbd6": [
       3
     ],
-    "5a171609": [
-      1
+    "3fa1017e": [
+      4
     ],
     "71974fd8": [
       3
@@ -424,9 +431,6 @@
     ],
     "1ce7083e": [
       3
-    ],
-    "2b3c22ba": [
-      4
     ],
     "5fedece6": [
       3
@@ -465,7 +469,7 @@
       3
     ],
     "02a893a1": [
-      1
+      8
     ],
     "58537c8d": [
       3
@@ -479,10 +483,16 @@
     "25399cb8": [
       3
     ],
+    "8fc38fa2": [
+      8
+    ],
     "1daed9bd": [
       4
     ],
     "67c8b2b7": [
+      3
+    ],
+    "2ea586e5": [
       3
     ],
     "8eb7f928": [
@@ -491,8 +501,8 @@
     "8036225a": [
       3
     ],
-    "2ea586e5": [
-      3
+    "051cd6e2": [
+      4
     ],
     "4ea08de9": [
       3

@@ -141,8 +141,7 @@ module.exports = {
       { name: 'robots', content: 'noimageindex' },
       { name: 'googlebot', content: 'noimageindex' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    css: [{ src: './assets/css/app.styl', lang: 'styl' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   /*
