@@ -32,48 +32,72 @@
 
 <script>
 import Constants from '~/components/constants.js'
-  export default {
-   name: 'default', 
-   metaInfo: {
-     // if no subcomponents specify a metaInfo.title, this title will be used
-      title: 'Hometown Cab',
-      // all titles will be injected into this template
-      titleTemplate: '%s | Hometown Cab Web App'
-   },
-   data () {
-    return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      miniVariant: false,
-      right: false,
-      rightDrawer: false,
-      title: 'Hometown Cab',
-      items: [
-        { icon: 'home', title: 'Home', target: '#app', options: '[ easing: "easeInOutQuad", duration: 800 ]' },
-        { icon: 'contact_phone', title: 'Contact', target: '#contact', options: '[ easing: "easeInOutQuad", duration: 800 ]' },
-        { icon: 'access_time', title: 'Hours', target: '#hours', options: '[ easing: "easeInOutQuad", duration: 800 ]' },
-        { icon: 'attach_money', title: 'Pricing', target: '#pricing', options: '[ easing: "easeInOutQuad", duration: 800 ]' },
-        { icon: 'local_taxi', title: 'Specials', target: '#specials', options: '[ easing: "easeInOutQuad", duration: 800 ]' },
-        { icon: 'record_voice_over', title: 'Testimonials', target: '#testimonials', options: '[ easing: "easeInOutQuad", duration: 800 ]' }
-      ],      
-      companyname: Constants.companyname,
-      telnum1: Constants.telnum1,
-      telnum2: Constants.telnum2,
-      Hours1: Constants.hours[0],
-      Hours2: Constants.hours[1],
-      Hours3: Constants.hours[2],
-      Hours4: Constants.hours[3],
-      oneWayPrice: Constants.onewayprice,
-      roundTripPrice: Constants.roundtripprice,
-      additionalStopPrice: Constants.additionalstopprice,
-      Version: Constants.version,
-      Owner: Constants.ownername
-    }
-  }
+import Versioner from '../components/versioner.js'
+export default {
+	name: 'default',
+	data() {
+		return {
+			clipped: false,
+			drawer: false,
+			fixed: false,
+			miniVariant: false,
+			right: false,
+			rightDrawer: false,
+			title: 'Hometown Cab',
+			items: [
+				{
+					icon: 'home',
+					title: 'Home',
+					target: '#app',
+					options: '[ easing: "easeInOutQuad", duration: 800 ]'
+				},
+				{
+					icon: 'contact_phone',
+					title: 'Contact',
+					target: '#contact',
+					options: '[ easing: "easeInOutQuad", duration: 800 ]'
+				},
+				{
+					icon: 'access_time',
+					title: 'Hours',
+					target: '#hours',
+					options: '[ easing: "easeInOutQuad", duration: 800 ]'
+				},
+				{
+					icon: 'attach_money',
+					title: 'Pricing',
+					target: '#pricing',
+					options: '[ easing: "easeInOutQuad", duration: 800 ]'
+				},
+				{
+					icon: 'local_taxi',
+					title: 'Specials',
+					target: '#specials',
+					options: '[ easing: "easeInOutQuad", duration: 800 ]'
+				},
+				{
+					icon: 'record_voice_over',
+					title: 'Testimonials',
+					target: '#testimonials',
+					options: '[ easing: "easeInOutQuad", duration: 800 ]'
+				}
+			],
+			companyname: Constants.companyname,
+			telnum1: Constants.telnum1,
+			telnum2: Constants.telnum2,
+			Hours1: Constants.hours[0],
+			Hours2: Constants.hours[1],
+			Hours3: Constants.hours[2],
+			Hours4: Constants.hours[3],
+			oneWayPrice: Constants.onewayprice,
+			roundTripPrice: Constants.roundtripprice,
+			additionalStopPrice: Constants.additionalstopprice,
+			Owner: Constants.ownername,
+			Versioner: Versioner.version
+		}
+	}
 }
 </script>
 
 <style>
-
 </style>

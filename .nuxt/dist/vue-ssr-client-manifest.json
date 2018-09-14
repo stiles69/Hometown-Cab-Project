@@ -2,31 +2,31 @@
   "publicPath": "/_nuxt/",
   "all": [
     "icons/icon_120.8cMy4ycy230.png",
-    "img/Cover-1920x950.3d7e172.png",
-    "pages/index.4c0ab73e330b819c6046.js",
-    "vendor.9d8942fb68ce18e19210.js",
-    "app.a607d638ead60472802a.js",
-    "manifest.0557f735bb8bdb2445ec.js",
+    "img/Cover.43adf42.png",
+    "pages/index.71e2c3503da0f25d8e85.js",
+    "vendor.cb0f2c6d4883c5f4046f.js",
+    "app.851b7896c2e046b9de1b.js",
+    "manifest.48d4a11419c0c03cd870.js",
     "LICENSES",
-    "icons/icon_16.8cMy4ycy230.png",
-    "layouts/default.74121e086e30fe6e4c1b.js",
+    "icons/icon_64.8cMy4ycy230.png",
+    "layouts/default.19349c041abe305b08eb.js",
     "icons/icon_144.8cMy4ycy230.png",
     "icons/icon_152.8cMy4ycy230.png",
     "icons/icon_192.8cMy4ycy230.png",
     "icons/icon_384.8cMy4ycy230.png",
     "icons/icon_512.8cMy4ycy230.png",
-    "manifest.72910232.json",
+    "manifest.ed1226c4.json",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.0557f735bb8bdb2445ec.js",
-    "vendor.9d8942fb68ce18e19210.js",
-    "app.a607d638ead60472802a.js"
+    "manifest.48d4a11419c0c03cd870.js",
+    "vendor.cb0f2c6d4883c5f4046f.js",
+    "app.851b7896c2e046b9de1b.js"
   ],
   "async": [
-    "pages/index.4c0ab73e330b819c6046.js",
-    "layouts/default.74121e086e30fe6e4c1b.js"
+    "pages/index.71e2c3503da0f25d8e85.js",
+    "layouts/default.19349c041abe305b08eb.js"
   ],
   "modules": {
     "16233649": [
@@ -90,6 +90,10 @@
     "09741ee4": [
       3
     ],
+    "a35ab488": [
+      2,
+      1
+    ],
     "4781309c": [
       3
     ],
@@ -132,16 +136,10 @@
     "4f59da10": [
       4
     ],
-    "7eb601b8": [
-      4
-    ],
     "2fd753f2": [
       3
     ],
     "735015f8": [
-      3
-    ],
-    "1c20e85c": [
       3
     ],
     "3cc2472c": [
@@ -151,6 +149,9 @@
       3
     ],
     "7ebc31ab": [
+      4
+    ],
+    "73b5bcf0": [
       4
     ],
     "4f5e6680": [
@@ -240,10 +241,6 @@
     ],
     "37ffba18": [
       3
-    ],
-    "72cece09": [
-      2,
-      1
     ],
     "b4ae8360": [
       3
@@ -399,7 +396,7 @@
     "646ce495": [
       3
     ],
-    "a75e1472": [
+    "7abf3b65": [
       3
     ],
     "2ea586e5": [
@@ -456,6 +453,9 @@
     "4655f6a2": [
       3
     ],
+    "a75e1472": [
+      3
+    ],
     "2e82ebaf": [
       3
     ],
@@ -479,6 +479,9 @@
     ],
     "07bf6852": [
       3
+    ],
+    "3aa55c28": [
+      8
     ],
     "58537c8d": [
       3
@@ -518,9 +521,6 @@
     ],
     "493a7297": [
       4
-    ],
-    "7abf3b65": [
-      3
     ]
   }
 }

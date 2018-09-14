@@ -13,7 +13,7 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 /* Plugins */
 import nuxt_plugin_swplugin_57ab06be from 'nuxt_plugin_swplugin_57ab06be' // Source: ./sw.plugin.js (ssr: false)
-import nuxt_plugin_googleanalytics_75167361 from 'nuxt_plugin_googleanalytics_75167361' // Source: ./google-analytics.js (ssr: false)
+import nuxt_plugin_googletagmanager_5cc9d426 from 'nuxt_plugin_googletagmanager_5cc9d426' // Source: ./google-tag-manager.js (ssr: false)
 import nuxt_plugin_vuetify_3cf73f8d from 'nuxt_plugin_vuetify_3cf73f8d' // Source: ./vuetify.js
 
 
@@ -140,7 +140,7 @@ async function createApp (ssrContext) {
   
   if (process.browser) { 
     if (typeof nuxt_plugin_swplugin_57ab06be === 'function') await nuxt_plugin_swplugin_57ab06be(app.context, inject)
-    if (typeof nuxt_plugin_googleanalytics_75167361 === 'function') await nuxt_plugin_googleanalytics_75167361(app.context, inject)
+    if (typeof nuxt_plugin_googletagmanager_5cc9d426 === 'function') await nuxt_plugin_googletagmanager_5cc9d426(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first

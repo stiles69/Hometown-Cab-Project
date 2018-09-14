@@ -2,7 +2,7 @@
   <v-app>  
   <!-- Begin Main Content -->
   <!--Begin Cover Image-->
-  <img src='../assets/img/Cover-1920x950.png' class='HometownImage' width='100%' aria-label='Cover Image' />    
+  <img src='../assets/img/Cover.png' class='HometownImage' width='100%' aria-label='Cover Image' />    
   <!--End Cover Image-->
   <!--Begin Heading-->
   <v-layout column align-center>
@@ -131,51 +131,51 @@
 <script>
 import Constants from '~/components/constants.js'
 export default {
-  name: 'home',
-  metaInfo: {
-    title: 'Home Page',
-    // override the parent template and just use the above title only
-    titleTemplate: null
-  },
-  data: function () {
-    return {
-      companyname: Constants.companyname,
-      telnum1: Constants.telnum1,
-      telnum2: Constants.telnum2,
-      Hours1: Constants.hours[0],
-      Hours2: Constants.hours[1],
-      Hours3: Constants.hours[2],
-      Hours4: Constants.hours[3],
-      oneWayPrice: Constants.onewayprice,
-      roundTripPrice: Constants.roundtripprice,
-      additionalStopPrice: Constants.additionalstopprice
-    }
-  },
-    methods: {      
-      customTextToClipboard1: function () {        
-        var textArea = document.createElement('textarea')
-        textArea.value = Constants.telnum1
-        document.body.appendChild(textArea)
-        textArea.select()
-        try {
-          document.execCommand('copy')         
-        } catch (err) {
-          log.err
-        }
-        document.body.removeChild(textArea)
-      },
-      customTextToClipboard2: function (event) {
-        var textArea = document.createElement('textarea')        
-        textArea.value = Constants.telnum2
-        document.body.appendChild(textArea)
-        textArea.select()     
-        try {
-          document.execCommand('copy')          
-        } catch (err) {
-          log.err
-        }
-        document.body.removeChild(textArea)
-      },
-  }
+	name: 'home',
+	metaInfo: {
+		title: 'Home Page',
+		// override the parent template and just use the above title only
+		titleTemplate: null
+	},
+	data: function() {
+		return {
+			companyname: Constants.companyname,
+			telnum1: Constants.telnum1,
+			telnum2: Constants.telnum2,
+			Hours1: Constants.hours[0],
+			Hours2: Constants.hours[1],
+			Hours3: Constants.hours[2],
+			Hours4: Constants.hours[3],
+			oneWayPrice: Constants.onewayprice,
+			roundTripPrice: Constants.roundtripprice,
+			additionalStopPrice: Constants.additionalstopprice
+		}
+	},
+	methods: {
+		customTextToClipboard1: function() {
+			var textArea = document.createElement('textarea')
+			textArea.value = Constants.telnum1
+			document.body.appendChild(textArea)
+			textArea.select()
+			try {
+				document.execCommand('copy')
+			} catch (err) {
+				log.err
+			}
+			document.body.removeChild(textArea)
+		},
+		customTextToClipboard2: function(event) {
+			var textArea = document.createElement('textarea')
+			textArea.value = Constants.telnum2
+			document.body.appendChild(textArea)
+			textArea.select()
+			try {
+				document.execCommand('copy')
+			} catch (err) {
+				log.err
+			}
+			document.body.removeChild(textArea)
+		}
+	}
 }
 </script>
