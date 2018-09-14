@@ -14,118 +14,81 @@ module.exports = {
   ],
 
   //Workbox
-  /*   workbox: {
+  workbox: {
+    clientsClaim: true,
+    skipWaiting: true,
+    directoryIndex: 'index.html',
+    cacheId: 'hometown-cab-app-cache',
+    offlineGoogleAnalytics: true,
     runtimeCaching: [
       {
-        urlPattern: 'https://www.hometown.cab/img/*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-image-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
+        // Match any same-origin request that contains 'api'.
+        urlPattern: /_nuxt/,
+        // Apply a network-first strategy.
+        handler: 'networkFirst',
+        options: {
+          // Fall back to the cache after 10 seconds.
+          networkTimeoutSeconds: 10,
+          // Use a custom cache name for this route.
+          cacheName: '_nuxt-cache',
+          // Configure custom cache expiration.
+          expiration: {
+            maxEntries: 5,
+            maxAgeSeconds: 60
+          },
+          // Configure which responses are considered cacheable.
+          cacheableResponse: {
+            statuses: [0, 200],
+            headers: { 'x-test': 'true' }
+          },
+          // Configure the broadcast cache update plugin.
+          broadcastUpdate: {
+            channelName: 'hometown-cab-update-channel'
+          },
+          // matchOptions and fetchOptions are used to configure the handler.
+          fetchOptions: {
+            mode: 'no-cors'
+          },
+          matchOptions: {
+            ignoreSearch: true
           }
         }
       },
       {
-        urlPattern: 'https://www.hometown.cab/pages/*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-pages-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/layout/*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-layout-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/manifest*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-manifest-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/analytics.js',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-analytics-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/_nuxt/vendor*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-vendor-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/_nuxt/app*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-app-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/gtm.js*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-google-tags-manager-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
-          }
-        }
-      },
-      {
-        urlPattern: 'https://www.hometown.cab/css?family*',
-        // Defaults to `networkFirst` if omitted
-        handler: 'cacheFirst',
-        strategyOptions: {
-          cacheName: 'hometown-googlefonts-cache',
-          cacheExpiration: {
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 2
+        // Match any same-origin request that contains 'img'.
+        urlPattern: /img/,
+        // Apply a network-first strategy.
+        handler: 'networkFirst',
+        options: {
+          // Fall back to the cache after 15 seconds.
+          networkTimeoutSeconds: 15,
+          // Use a custom cache name for this route.
+          cacheName: '_nuxt-cache',
+          // Configure custom cache expiration.
+          expiration: {
+            maxEntries: 5,
+            maxAgeSeconds: 60 * 60 * 24 * 7 // One week
+          },
+          // Configure which responses are considered cacheable.
+          cacheableResponse: {
+            statuses: [0, 200],
+            headers: { 'x-test': 'true' }
+          },
+          // Configure the broadcast cache update plugin.
+          broadcastUpdate: {
+            channelName: 'hometown-cab-update-channel-img'
+          },
+          // matchOptions and fetchOptions are used to configure the handler.
+          fetchOptions: {
+            mode: 'no-cors'
+          },
+          matchOptions: {
+            ignoreSearch: true
           }
         }
       }
     ]
-  }, */
+  },
 
   //Meta
   meta: {

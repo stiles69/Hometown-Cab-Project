@@ -6,24 +6,24 @@ workbox.precaching.precacheAndRoute([
     "revision": "0bee1d7fef83692edbbb636721cdaa15"
   },
   {
-    "url": "/_nuxt/layouts/default.12b063495881b6a79184.js",
-    "revision": "8162cc0b0e56a731ab68517d23b5c860"
+    "url": "/_nuxt/layouts/default.8a7bfb8d26c1d9f61300.js",
+    "revision": "87df0819c901752aa22ea1aafe20240b"
   },
   {
-    "url": "/_nuxt/manifest.d94428ca9648c441d7b8.js",
-    "revision": "532a436fc5fa8b5e8a6cc0943ef1b231"
+    "url": "/_nuxt/manifest.9e9c711eb26e70bee856.js",
+    "revision": "3dfa7e9c933b20063f51dd7614b3bd63"
   },
   {
-    "url": "/_nuxt/pages/index.671a126315a67dff2c73.js",
-    "revision": "49ef7c9adfe4de0cf3082cbad87846d9"
+    "url": "/_nuxt/pages/index.2dd8b5569612526ddf71.js",
+    "revision": "176710f23716e7e65ac5aa0683bd3d6d"
   },
   {
     "url": "/_nuxt/vendor.a287b8957aa73de415dd.js",
     "revision": "e52306f5ba911427928f7cf63a4d97e7"
   }
 ], {
-  "cacheId": "hometown-cab",
-  "directoryIndex": "/",
+  "cacheId": "hometown-cab-app-cache",
+  "directoryIndex": "index.html",
   "cleanUrls": false
 })
 
@@ -36,6 +36,10 @@ workbox.skipWaiting()
 workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
 
 workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
+
+workbox.routing.registerRoute(new RegExp('/_nuxt/'), workbox.strategies.networkFirst({}), 'GET')
+
+workbox.routing.registerRoute(new RegExp('/img/'), workbox.strategies.networkFirst({}), 'GET')
 
 
 
