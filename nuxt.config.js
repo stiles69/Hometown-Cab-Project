@@ -111,7 +111,7 @@ module.exports = {
       '/',
       {
         url: '/index.html',
-        changefreq: 'monthly',
+        changefreq: 'daily',
         priority: 1,
         lastmodISO: '2018-09-13T13:30:00.000Z'
       }
@@ -139,7 +139,8 @@ module.exports = {
     title: 'Hometown Cab',
     meta: [
       { name: 'robots', content: 'noimageindex' },
-      { name: 'googlebot', content: 'noimageindex' }
+      { name: 'googlebot', content: 'noimageindex' },
+      { name: 'msvalidate.01', content: '72C489E3AD71ECCCBF1CE821FAB81C3F' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
