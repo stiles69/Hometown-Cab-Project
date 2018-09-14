@@ -14,9 +14,118 @@ module.exports = {
   ],
 
   //Workbox
-  workbox: {
-    // Workbox options
-  },
+  /*   workbox: {
+    runtimeCaching: [
+      {
+        urlPattern: 'https://www.hometown.cab/img/*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-image-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/pages/*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-pages-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/layout/*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-layout-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/manifest*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-manifest-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/analytics.js',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-analytics-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/_nuxt/vendor*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-vendor-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/_nuxt/app*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-app-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/gtm.js*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-google-tags-manager-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      },
+      {
+        urlPattern: 'https://www.hometown.cab/css?family*',
+        // Defaults to `networkFirst` if omitted
+        handler: 'cacheFirst',
+        strategyOptions: {
+          cacheName: 'hometown-googlefonts-cache',
+          cacheExpiration: {
+            maxEntries: 10,
+            maxAgeSeconds: 60 * 60 * 24 * 2
+          }
+        }
+      }
+    ]
+  }, */
 
   //Meta
   meta: {
@@ -104,7 +213,7 @@ module.exports = {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://www.hometown.cab',
-    cacheTime: 1000 * 60 * 15,
+    cacheTime: 60 * 60 * 24, // One Day
     gzip: false,
     generate: true, // Enable me when using nuxt generate
     routes: [

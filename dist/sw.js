@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "revision": "43adf4258be83ae5c29039471ad9c048"
   },
   {
-    "url": "_nuxt/layouts/default.4356fe1f338280510c68.js",
-    "revision": "92f1fbb00e7d89201cd917698aa5d68a"
+    "url": "_nuxt/layouts/default.12b063495881b6a79184.js",
+    "revision": "8162cc0b0e56a731ab68517d23b5c860"
   },
   {
     "url": "_nuxt/manifest.7159fa65.json",
     "revision": "87386f8659fa2e5f7dd03f4d5fee1a08"
   },
   {
-    "url": "_nuxt/manifest.93aa2f6a72364608b2b5.js",
-    "revision": "99cd160b9da504c38033165964941b9c"
+    "url": "_nuxt/manifest.d94428ca9648c441d7b8.js",
+    "revision": "532a436fc5fa8b5e8a6cc0943ef1b231"
   },
   {
     "url": "_nuxt/pages/index.671a126315a67dff2c73.js",
@@ -85,7 +85,7 @@ self.__precacheManifest = [
   },
   {
     "url": "200.html",
-    "revision": "6e461f80df32f2f54a233d74366b4a08"
+    "revision": "13414ee1b12d1ada778c051fb789de3d"
   },
   {
     "url": "icon.png",
@@ -93,15 +93,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e9b1163886fee087a815043b03843533"
-  },
-  {
-    "url": "README.md",
-    "revision": "d42304ea28ed3b68f26884942ebe2e9b"
-  },
-  {
-    "url": "sitemap.xml",
-    "revision": "b67294891407eaa35d3ffb46ca34fecb"
+    "revision": "33bb9fd0c400150790c298c2a6376f71"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
