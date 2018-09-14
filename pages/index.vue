@@ -18,8 +18,8 @@
       <v-toolbar-title class='title black--text' aria-label='Toolbar News'>News</v-toolbar-title>
     </v-toolbar>   
     <v-card-text>
-      <div class='hidden-sm-and-down text-xs-center headline font-weight-medium'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
-      <div class='hidden-md-and-up text-xs-center title font-weight-medium'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
+      <div class='hidden-sm-and-down text-xs-center title font-weight-medium'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
+      <div class='hidden-md-and-up text-xs-center subheading font-weight-medium'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
     </v-card-text>
   </v-card>
   <!--End News-->
@@ -113,9 +113,9 @@
     <v-toolbar dark color='primary' aria-label='Toolbar Testimonials'>
       <v-toolbar-title class='title black--text'>Testimonials</v-toolbar-title>
     </v-toolbar>
-    <v-card-title>
-      <div class='title font-weight-medium'>Kelly Jo Zach</div>      
-    </v-card-title>
+    <v-card-text>
+      <div class='subheading blockquote font-weight-medium'>Kelly Jo Zach</div>      
+    </v-card-text>
     <v-card-text>
       <div class='subheading blockquote font-weight-medium'>
     Hometown Cab was my 'go to' cab, as I was searching for a solution to an issue with my license and a car needing lots of mechanical work. I contacted Bradd, and we agreed on an amount that worked for my budget and was fair to all parties involved. Hometown Cab is very good at offering monthly specials. They also cater to the shifts that manufacturers and businesses
@@ -136,9 +136,9 @@
           This cab service has set the bar very high. Bradd and Chad, not only offer safe transportation but excel in service, cleanliness, and compliance.
       </div>  
     </v-card-text>
-    <v-card-title>
-      <div class='title font-weight-medium'>Kudos. HOMETOWN CAB!!!!</div>      
-    </v-card-title>
+    <v-card-text>
+	    <div class='subheading blockquote font-weight-medium'>Kudos. HOMETOWN CAB!!!!</div>
+    </v-card-text>
   </v-card>
   <!-- End Testimonials -->
   <!-- End Main Content -->
