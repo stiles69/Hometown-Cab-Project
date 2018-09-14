@@ -6,7 +6,7 @@
             <v-list-tile-action class='HometownLink'>
               <div class='HometownLink' @click='$vuetify.goTo(item.target, item.options)'><v-icon v-html='item.icon' aria-label='Navigation Button' class='HometownLink'></v-icon></div>                
             </v-list-tile-action>
-          <div class='HometownLink' @click='$vuetify.goTo(item.target, item.options)'><v-list-tile-title v-text='item.title' aria-label='Navigation Title' class='HometownLink'></v-list-tile-title></div>
+          <div class='HometownLink' @click='$vuetify.goTo(item.target, item.options)'><v-list-tile-title v-text='item.title' aria-label='Navigation Title' class='HometownLink subheading'></v-list-tile-title></div>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
