@@ -3,13 +3,13 @@
   "all": [
     "icons/icon_120.8cMy4ycy230.png",
     "img/Cover.43adf42.png",
-    "pages/index.096ec1bc1e1c142238d1.js",
-    "vendor.cb0f2c6d4883c5f4046f.js",
-    "app.851b7896c2e046b9de1b.js",
-    "manifest.6ca2225fee64e1e1919f.js",
+    "pages/index.e8be89477bb51cd3740d.js",
+    "vendor.09d62e2d737a609ef5de.js",
+    "app.a18237d648b0cf77e77b.js",
+    "manifest.a1940e8841be9c5cc989.js",
     "LICENSES",
     "icons/icon_64.8cMy4ycy230.png",
-    "layouts/default.9e6bd653d718ea5f6a71.js",
+    "layouts/default.f6412d108cf18736f278.js",
     "icons/icon_144.8cMy4ycy230.png",
     "icons/icon_152.8cMy4ycy230.png",
     "icons/icon_192.8cMy4ycy230.png",
@@ -20,13 +20,13 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.6ca2225fee64e1e1919f.js",
-    "vendor.cb0f2c6d4883c5f4046f.js",
-    "app.851b7896c2e046b9de1b.js"
+    "manifest.a1940e8841be9c5cc989.js",
+    "vendor.09d62e2d737a609ef5de.js",
+    "app.a18237d648b0cf77e77b.js"
   ],
   "async": [
-    "pages/index.096ec1bc1e1c142238d1.js",
-    "layouts/default.9e6bd653d718ea5f6a71.js"
+    "pages/index.e8be89477bb51cd3740d.js",
+    "layouts/default.f6412d108cf18736f278.js"
   ],
   "modules": {
     "16233649": [
@@ -55,9 +55,6 @@
     ],
     "64027c52": [
       3
-    ],
-    "19bfd265": [
-      4
     ],
     "dc485726": [
       2,
@@ -130,6 +127,9 @@
     "eace620c": [
       3
     ],
+    "342dfcdb": [
+      4
+    ],
     "1859381d": [
       3
     ],
@@ -141,9 +141,6 @@
     ],
     "735015f8": [
       3
-    ],
-    "3cc2472c": [
-      4
     ],
     "3d99f2a1": [
       3
@@ -171,6 +168,9 @@
     ],
     "34fc3881": [
       3
+    ],
+    "0b0c641b": [
+      4
     ],
     "4623e43c": [
       3
@@ -261,9 +261,6 @@
       2,
       1
     ],
-    "434c6ffb": [
-      4
-    ],
     "0a5e8f2a": [
       3
     ],
@@ -321,9 +318,6 @@
     "70dee05b": [
       4
     ],
-    "f5729dd6": [
-      8
-    ],
     "f3dc788c": [
       3
     ],
@@ -339,6 +333,9 @@
     "27cc2c59": [
       3
     ],
+    "45e339fe": [
+      4
+    ],
     "2ab9aaa3": [
       3
     ],
@@ -350,9 +347,6 @@
     ],
     "0ac4ea72": [
       3
-    ],
-    "37fd7613": [
-      4
     ],
     "2210fbc2": [
       3
@@ -368,9 +362,6 @@
     ],
     "c5d6ce2a": [
       3
-    ],
-    "b6490a98": [
-      8
     ],
     "7733f37e": [
       3
@@ -394,12 +385,6 @@
       3
     ],
     "646ce495": [
-      3
-    ],
-    "7abf3b65": [
-      3
-    ],
-    "2ea586e5": [
       3
     ],
     "68f21116": [
@@ -459,6 +444,9 @@
     "2e82ebaf": [
       3
     ],
+    "3cd2159a": [
+      8
+    ],
     "9aa76d44": [
       3
     ],
@@ -492,6 +480,9 @@
     "3755d54c": [
       3
     ],
+    "0480dd8a": [
+      8
+    ],
     "25399cb8": [
       3
     ],
@@ -516,11 +507,14 @@
     "2bfa176c": [
       3
     ],
-    "4300cea6": [
-      4
-    ],
     "493a7297": [
       4
+    ],
+    "7abf3b65": [
+      3
+    ],
+    "2ea586e5": [
+      3
     ]
   }
 }

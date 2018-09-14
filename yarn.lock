@@ -131,12 +131,6 @@
     minimatch "^3.0.4"
     sitemap "^1.13.0"
 
-"@nuxtjs/vuetify@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/vuetify/-/vuetify-0.4.2.tgz#91da4cc25457349f0013492d374329a7800ddf69"
-  dependencies:
-    vuetify "^1.0.17"
-
 "@nuxtjs/workbox@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/workbox/-/workbox-2.2.0.tgz#c8f0df77afe029ded7783806b77ec950f792d3c3"
@@ -8341,9 +8335,9 @@ vue@^2.5.17:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
 
-vuetify@^1.0.17:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.1.13.tgz#42bc2a18fd7e3c610358b7a4f54ee3fe748b9676"
+vuetify@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.2.3.tgz#519bab56c31420892912c0c7dbd23e790c9287bb"
 
 vuex@^3.0.1:
   version "3.0.1"

@@ -9,7 +9,6 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    '@nuxtjs/vuetify',
     // Google Tag Manager
     ['@nuxtjs/google-tag-manager', { id: 'GTM-K2PTPX5' }],
     [
@@ -102,21 +101,6 @@ module.exports = {
     ]
   },
 
-  // Vuetify
-  vuetify: {
-    materialIcons: true,
-    css: true,
-    theme: {
-      primary: '#FDD835',
-      secondary: '#FFECB3',
-      accent: '#F9A825',
-      error: '#f44336',
-      warning: '#FFAB91',
-      info: '#2196f3',
-      success: '#4caf50'
-    }
-  },
-
   /*
   ** Headers of the page
   */
@@ -147,7 +131,14 @@ module.exports = {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-  css: ['./assets/style/app.styl'],
+  plugins: ['~plugins/vuetify.js'],
+
+  css: [
+	  {
+		  src: ('./assets/css/app.styl'),
+	  lang: 'styl'
+	  }
+  ],
   /*
   ** Customize the progress bar color
   */

@@ -108,7 +108,7 @@
       <div class="title font-italic font-weight-bold">Kelly Jo Zach</div>      
     </v-card-title>
     <v-card-text>
-      <div class="subheading font-italic font-weight-bold">
+      <div class="subheading font-italic font-weight-bold blockquote">
     Hometown Cab was my 'go to' cab, as I was searching for a solution to an issue with my license and a car needing lots of mechanical work. I contacted Bradd, and we agreed on an amount that worked for my budget and was fair to all parties involved. Hometown Cab is very good at offering monthly specials. They also cater to the shifts that manufacturers and businesses
                           schedule that may not fit within normal work hours.
     The kindness I receive from Bradd and Chad has been very much appreciated. They always go above and beyond expectations that I had for a cab service. They assist elderly people to door with their groceries, or purchases. They truly

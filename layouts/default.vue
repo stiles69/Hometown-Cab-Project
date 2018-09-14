@@ -20,11 +20,11 @@
     </v-content>  
      <v-footer dark color='primary' class='black--text' height='auto' aria-label='Footer'>
       <v-layout column>
-        <div class='text-xs-center HometownFooter' aria-label='Company Name'>Hometown Cab</div>        
-        <div class='hidden-sm-and-down text-xs-center HometownFooter' aria-label='Owned and Operated by'>Owned and Operated by</div>
+        <div class='text-xs-center' aria-label='Company Name'>Hometown Cab</div>        
+        <div class='hidden-sm-and-down text-xs-center' aria-label='Owned and Operated by'>Owned and Operated by</div>
         <div class='hidden-sm-and-down text-xs-center HometownFooter' aria-label='Owner'>{{ Owner }}</div>
-        <div class='text-xs-center HometownFooter' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
-        <div class='text-xs-center HometownFooter' aria-label='Version'>Version {{ Version }}</div>
+        <div class='text-xs-center' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
+        <div class='text-xs-center' aria-label='Version'>Version {{ Version }}</div>
       </v-layout>
     </v-footer>
   </v-app>
@@ -100,5 +100,5 @@ export default {
 </script>
 
 <style lang='stylus'>
-@import '../assets/stylus/app.styl'
+@import '../assets/css/app.styl'
 </style>
