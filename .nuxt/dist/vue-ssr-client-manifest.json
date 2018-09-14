@@ -6,10 +6,10 @@
     "pages/index.096ec1bc1e1c142238d1.js",
     "vendor.cb0f2c6d4883c5f4046f.js",
     "app.851b7896c2e046b9de1b.js",
-    "manifest.71ab012706055a5e4d63.js",
+    "manifest.6ca2225fee64e1e1919f.js",
     "LICENSES",
     "icons/icon_64.8cMy4ycy230.png",
-    "layouts/default.5ed47821bc320dfdb7b0.js",
+    "layouts/default.9e6bd653d718ea5f6a71.js",
     "icons/icon_144.8cMy4ycy230.png",
     "icons/icon_152.8cMy4ycy230.png",
     "icons/icon_192.8cMy4ycy230.png",
@@ -20,13 +20,13 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.71ab012706055a5e4d63.js",
+    "manifest.6ca2225fee64e1e1919f.js",
     "vendor.cb0f2c6d4883c5f4046f.js",
     "app.851b7896c2e046b9de1b.js"
   ],
   "async": [
     "pages/index.096ec1bc1e1c142238d1.js",
-    "layouts/default.5ed47821bc320dfdb7b0.js"
+    "layouts/default.9e6bd653d718ea5f6a71.js"
   ],
   "modules": {
     "16233649": [

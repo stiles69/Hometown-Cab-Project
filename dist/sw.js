@@ -12,12 +12,12 @@ workboxSW.precache([
     "revision": "9d89c9c19fe362487280223e28b1b5cf"
   },
   {
-    "url": "/_nuxt/layouts/default.5ed47821bc320dfdb7b0.js",
-    "revision": "8f3e518cdacd4fa76711b08233044270"
+    "url": "/_nuxt/layouts/default.9e6bd653d718ea5f6a71.js",
+    "revision": "76f38916fd5f4e77cb54700bb26e52d1"
   },
   {
-    "url": "/_nuxt/manifest.71ab012706055a5e4d63.js",
-    "revision": "6f0e1f01d8c0891d64d26485a085eff0"
+    "url": "/_nuxt/manifest.6ca2225fee64e1e1919f.js",
+    "revision": "07401832b9a7b40573fc469b70301dd9"
   },
   {
     "url": "/_nuxt/pages/index.096ec1bc1e1c142238d1.js",
