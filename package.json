@@ -12,23 +12,21 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.8",
-    "nuxt": "^1.0.0",
-    "vue": "^2.5.17"
+    "nuxt": "^1.4.2"
   },
   "devDependencies": {
     "@nuxtjs/google-tag-manager": "^2.0.0",
     "@nuxtjs/sitemap": "^0.1.1",
+    "@nuxtjs/vuetify": "^0.4.2",
     "babel-eslint": "^8.2.1",
     "css-loader": "^1.0.0",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
-    "nuxt-imagemin": "^0.1.2",
+    "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.22.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
-    "vuetify": "^1.2.3",
-    "webpack": "^4.16.5"
+    "stylus-loader": "^3.0.2"
   }
 }

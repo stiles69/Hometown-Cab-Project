@@ -9,23 +9,36 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    // Google Tag Manager
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-K2PTPX5' }],
-    [
-      'nuxt-imagemin',
-      {
-        optipng: { optimizationLevel: 5 }
-      }
-    ]
+    '@nuxtjs/vuetify',
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-K2PTPX5' }]
   ],
 
   //Workbox
-  /* workbox: {
-    importScripts: [
-      'https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js'
-    ],
-   
-  }, */
+  workbox: {
+    // Workbox options
+  },
+
+  //Meta
+  meta: {
+    charset: 'utf-8',
+    viewport: 'width=device - width, initial-scale=1',
+    mobileApp: true,
+    favicon: true,
+    name: 'Hometown Cab',
+    author: 'admin@roguedesigns.us',
+    description:
+      'Hometown Cab Taxi Newton Iowa 50208 Jasper County Iowa 515-210-4111 641-275-9501',
+    theme_color: '#FDD835',
+    lang: 'en',
+    ogType: 'website',
+    ogSiteName: 'Hometown Cab',
+    ogTitle: 'Hometown Cab Newton, Iowa 50208',
+    ogDescription:
+      'Hometown Cab Taxi Newton Iowa 50208 Jasper County Iowa 515-210-4111 641-275-9501',
+    ogHost: 'https://hometown.cab',
+    ogImage: true,
+    ogUrl: 'https://hometown.cab'
+  },
 
   // Manifest
   manifest: {
@@ -83,6 +96,10 @@ module.exports = {
     ]
   },
 
+  /* icon: {
+    // Icon options
+  }, */
+
   //Sitemap
   sitemap: {
     path: '/sitemap.xml',
@@ -101,44 +118,33 @@ module.exports = {
     ]
   },
 
+  //Vuetify
+  vuetify: {
+    materialIcons: true,
+    theme: {
+      primary: '#FDD835',
+      secondary: '#FFECB3',
+      accent: '#F9A825',
+      error: '#f44336',
+      warning: '#FFAB91',
+      info: '#2196f3',
+      success: '#4caf50'
+    }
+  },
+
   /*
   ** Headers of the page
   */
   head: {
     title: 'Hometown Cab',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'Hometown Cab Taxi Newton Iowa 50208 515-210-4111 Jasper County Iowa'
-      },
       { name: 'robots', content: 'noimageindex' },
-      { name: 'googlebot', content: 'noimageindex' },
-      { name: 'title', content: 'Hometown Cab' },
-      { name: 'author', content: 'Rogue Designs <admin@roguedesigns.us>' },
-      { name: 'theme_color', content: '#FDD835' },
-      { name: 'lang', content: 'en' },
-      { name: 'og:title', content: 'Hometown Cab' },
-      { name: 'og:url', content: 'https://www.hometown.cab' },
-      {
-        name: 'og:description',
-        content:
-          'Hometown Cab Taxi Newton Iowa 50208 Jasper County Iowa Taxi Cab Newton Iowa Area'
-      }
+      { name: 'googlebot', content: 'noimageindex' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    css: [{ src: './assets/css/app.styl', lang: 'styl' }]
   },
-  plugins: ['~plugins/vuetify.js'],
 
-  css: [
-    {
-      src: './assets/css/app.styl',
-      lang: 'styl'
-    }
-  ],
   /*
   ** Customize the progress bar color
   */

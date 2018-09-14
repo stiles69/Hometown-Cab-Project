@@ -1,36 +1,43 @@
-importScripts('/_nuxt/workbox.3de3418b.js')
+importScripts('/_nuxt/workbox.3ffff7b2.js')
 
-const workboxSW = new self.WorkboxSW({
+workbox.precaching.precacheAndRoute([
+  {
+    "url": "/_nuxt/app.91a4adb8937bd6fb2adf.js",
+    "revision": "a8ff817c486e7753c7cdd8e1723b69d1"
+  },
+  {
+    "url": "/_nuxt/layouts/default.0803a0d3358f73ad4bc6.js",
+    "revision": "b9e1f5af81454d2c52a1bdc2489f4c8f"
+  },
+  {
+    "url": "/_nuxt/manifest.56ab42b2e005b4e38c6f.js",
+    "revision": "b902ee4baaa22763b8b581ba609b8619"
+  },
+  {
+    "url": "/_nuxt/pages/index.2402c301770901d5fccb.js",
+    "revision": "10c4735cd7fb95bdf04fc3d4ace12d23"
+  },
+  {
+    "url": "/_nuxt/vendor.2c3d29cb6a98c7a198df.js",
+    "revision": "bd4f43ca6f6fa1b5ff7732bffedeeb18"
+  }
+], {
   "cacheId": "hometown-cab",
-  "clientsClaim": true,
-  "directoryIndex": "/"
+  "directoryIndex": "/",
+  "cleanUrls": false
 })
 
-workboxSW.precache([
-  {
-    "url": "/_nuxt/app.851b7896c2e046b9de1b.js",
-    "revision": "9d89c9c19fe362487280223e28b1b5cf"
-  },
-  {
-    "url": "/_nuxt/layouts/default.9e6bd653d718ea5f6a71.js",
-    "revision": "76f38916fd5f4e77cb54700bb26e52d1"
-  },
-  {
-    "url": "/_nuxt/manifest.6ca2225fee64e1e1919f.js",
-    "revision": "07401832b9a7b40573fc469b70301dd9"
-  },
-  {
-    "url": "/_nuxt/pages/index.096ec1bc1e1c142238d1.js",
-    "revision": "b383e2a5e8b27689366e414e77a665e9"
-  },
-  {
-    "url": "/_nuxt/vendor.cb0f2c6d4883c5f4046f.js",
-    "revision": "beb3f3bddc15a31076201c9af18385d5"
-  }
-])
 
 
-workboxSW.router.registerRoute(new RegExp('/_nuxt/.*'), workboxSW.strategies.cacheFirst({}), 'GET')
+workbox.clientsClaim()
+workbox.skipWaiting()
 
-workboxSW.router.registerRoute(new RegExp('/.*'), workboxSW.strategies.networkFirst({}), 'GET')
+
+workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
+
+workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
+
+
+
+
 
