@@ -6,10 +6,10 @@
   <!--End Cover Image-->
   <!--Begin Heading-->
   <v-layout column align-center>
-    <div class='text-xs-center hidden-sm-and-down HometownNewsh4 font-weight-medium' aria-label='Company Name'>{{ companyname }}</div>
-    <div class='text-xs-center hidden-sm-and-down HometownNewsh5 font-weight-medium' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</div>
-    <div class='text-xs-center hidden-md-and-up HometownNewsh5 font-weight-medium' aria-label='Company Name'>{{ companyname }}</div>
-    <div class='text-xs-center hidden-md-and-up HometownNewsh6 font-weight-medium' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</div>
+    <div class='text-xs-center hidden-sm-and-down HometownTitleh4 font-weight-medium' aria-label='Company Name'>{{ companyname }}</div>
+    <div class='text-xs-center hidden-sm-and-down HometownTitleh5 font-weight-medium' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</div>
+    <div class='text-xs-center hidden-md-and-up HometownTitleh5 font-weight-medium' aria-label='Company Name'>{{ companyname }}</div>
+    <div class='text-xs-center hidden-md-and-up HometownTitleh6 font-weight-medium' aria-label='Company Description'>Newton, Iowa Cab and Taxi Service</div>
   </v-layout>
   <!--End Heading-->
   <!--Begin News-->
@@ -17,9 +17,7 @@
     <v-toolbar dark color='primary'>
       <v-toolbar-title class='title black--text' aria-label='Toolbar News'>News</v-toolbar-title>
     </v-toolbar>
-    <v-card-title>
-      <div class='HometownNews'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>
-    </v-card-title>
+      <div class='HometownTitle'>So far it's been a great experience & we thank you all for your support & hope you keep us in mind for your hometown cab needs.</div>    
   </v-card>
   <!--End News-->
   <!-- Begin Contact -->    
