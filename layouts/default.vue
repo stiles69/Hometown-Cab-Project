@@ -32,7 +32,7 @@
 
 <script>
 import Constants from '~/components/constants.js'
-import Versioner from '../components/versioner.js'
+import Versioner from '~/components/versioner.js'
 export default {
 	name: 'default',
 	data() {
