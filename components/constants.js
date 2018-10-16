@@ -10,7 +10,7 @@ const hours = [
   'Sunday - Thursday',
   '5:30 AM - 12:00 AM',
   'Friday - Saturday',
-  '5:30 AM - 2:30 AM'
+  '5:30 AM - 12:00 AM'
 ]
 
 export default {
