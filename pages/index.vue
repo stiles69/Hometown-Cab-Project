@@ -47,32 +47,15 @@
         Hours of Operation
       </v-toolbar-title>
     </v-toolbar>
-    <v-card-title>
-      <div class='title font-weight-medium'>{{ Hours1 }}</div>      
-    </v-card-title>
-    <v-card-title>
-      <div class='subheading font-weight-medium'>{{ Hours2 }}</div>     
-    </v-card-title>
-    <v-divider></v-divider>
-    <v-card-title>
-      <div class='title font-weight-medium'>{{ Hours3 }}</div>
-    </v-card-title>
-    <v-card-title>
-      <div class='subheading font-weight-medium'>{{ Hours4 }}</div>
-    </v-card-title>
-   <v-divider></v-divider>
-    <v-card-title>
-      <div class='title font-weight-medium'>Open 7 Days a Week</div>
-    </v-card-title>
+    <!-- Begin Schedule2  --> 
+    <Schedule2></Schedule2>
+    <!-- End Schedule2 -->
     <v-divider></v-divider>
     <v-card-title>
       <div class='subheading font-italic font-weight-medium'>We take advance reservations for those with Late/Early work schedules.</div>
       </v-card-title>
   </v-card>
-  <!-- End Hours -->
-  <!-- Begin Schedule Test -->
-  <Schedule></Schedule>
-  <!-- End Schedule Test -->
+  <!-- End Hours -->  
   <!-- Begin Pricing -->
   <v-card id='pricing' raised color='white' height='auto'>
     <v-toolbar dark color='primary'>
@@ -149,9 +132,13 @@
 </template>
 
 <script>
+import Schedule2 from '~/components/Schedule2.vue'
 import Constants from '~/components/constants.js'
 export default {
-	name: 'home',
+  components: {
+    Schedule2
+  },
+	name: 'index',
 	metaInfo: {
 		title: 'Home Page',
 		// override the parent template and just use the above title only
@@ -165,7 +152,17 @@ export default {
 			Hours1: Constants.hours[0],
 			Hours2: Constants.hours[1],
 			Hours3: Constants.hours[2],
-			Hours4: Constants.hours[3],
+      Hours4: Constants.hours[3],
+      Hours5: Constants.hours[4],
+			Hours6: Constants.hours[5],
+			Hours7: Constants.hours[6],
+      Hours8: Constants.hours[7],
+      Hours9: Constants.hours[8],
+			Hours10: Constants.hours[9],
+			Hours11: Constants.hours[10],
+      Hours12: Constants.hours[11],
+      Hours13: Constants.hours[12],
+			Hours14: Constants.hours[13],		
 			oneWayPrice: Constants.onewayprice,
 			roundTripPrice: Constants.roundtripprice,
 			additionalStopPrice: Constants.additionalstopprice

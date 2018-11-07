@@ -1,0 +1,17 @@
+<v-card-title>
+      <div class='title font-weight-medium'>{{ Hours1 }}</div>      
+    </v-card-title>
+    <v-card-title>
+      <div class='subheading font-weight-medium'>{{ Hours2 }}</div>     
+    </v-card-title>
+    <v-divider></v-divider>
+    <v-card-title>
+      <div class='title font-weight-medium'>{{ Hours3 }}</div>
+    </v-card-title>
+    <v-card-title>
+      <div class='subheading font-weight-medium'>{{ Hours4 }}</div>
+    </v-card-title>
+   <v-divider></v-divider>
+    <v-card-title>
+      <div class='title font-weight-medium'>Open 7 Days a Week</div>
+    </v-card-title>

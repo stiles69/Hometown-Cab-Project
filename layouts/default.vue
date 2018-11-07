@@ -21,13 +21,19 @@
      <v-footer dark color='primary' class='black--text' height='auto' aria-label='Footer'>
       <v-layout column>
         <div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Company Name'>Hometown Cab</div>
+				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='City/State'>Netwon, IA 50208</div>
+				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='County'>Serving Jasper County Area</div>
 				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Owned and Operated by'>Owned and Operated by</div>
 				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Owner'>{{ Owner }}</div>
+				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Email'><a href="mailto:admin@hometown.cab">admin@hometown.cab</a></div>
 				<div class='hidden-sm-and-down text-xs-center font-weight-medium HometownFooterFull' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
         <div class='hidden-sm-and-down text-xs-center font-weight-medium' aria-label='Version'>Version {{ Version }}</div>
 				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Company Name'>Hometown Cab</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterFull' aria-label='City/State'>Netwon, IA 50208</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterFull' aria-label='County'>Serving Jasper County Area</div>
 				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Owned and Operated by'>Owned and Operated by</div>
 				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Owner'>{{ Owner }}</div>
+				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterFull' aria-label='Email'><a href="mailto:admin@hometown.cab">admin@hometown.cab</a></div>
 				<div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Copyright'>&copy; Copyright 2017 Hometown Cab</div>
         <div class='hidden-md-and-up text-xs-center font-weight-medium HometownFooterMobile' aria-label='Version'>Version {{ Version }}</div>
       </v-layout>
