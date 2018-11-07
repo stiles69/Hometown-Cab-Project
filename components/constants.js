@@ -7,9 +7,19 @@ const roundtripprice = '$12 Roundtrip (Local)*'
 const additionalstopprice = '$2 For Each Additional Stop (Local)*'
 const companyslogan = "We're Taking you Places"
 const hours = [
-  'Sunday - Thursday',
+  'Sunday',
   '5:30 AM - 12:00 AM',
-  'Friday - Saturday',
+  'Monday',
+  '5:30 AM - 12:00 AM',
+  'Tuesday',
+  '5:30 AM - 12:00 AM',
+  'Wednesday',
+  '5:30 AM - 12:00 AM',
+  'Thursday',
+  '5:30 AM - 12:00 AM',
+  'Friday',
+  '5:30 AM - 12:00 AM',  
+  'Saturday',
   '5:30 AM - 12:00 AM'
 ]
 

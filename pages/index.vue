@@ -70,6 +70,9 @@
       </v-card-title>
   </v-card>
   <!-- End Hours -->
+  <!-- Begin Schedule Test -->
+  <Schedule></Schedule>
+  <!-- End Schedule Test -->
   <!-- Begin Pricing -->
   <v-card id='pricing' raised color='white' height='auto'>
     <v-toolbar dark color='primary'>
