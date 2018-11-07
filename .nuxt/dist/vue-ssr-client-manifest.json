@@ -2,11 +2,11 @@
   "publicPath": "/_nuxt/",
   "all": [
     "img/Cover.9b7fc47.png",
-    "pages/index.95107b978a9334d1d183.js",
-    "layouts/default.fcc61cf9a780752dba24.js",
+    "pages/index.9da0b10b3f7b0f6a5911.js",
+    "layouts/default.52f27cd459eb5605367b.js",
     "vendor.2f0191b224a85871c14a.js",
-    "app.53cc914bd4147ce55c84.js",
-    "manifest.c2e9cd8ce008723fe215.js",
+    "app.91c40625becd49eda5fb.js",
+    "manifest.16fbba1aafb54f7c2db4.js",
     "LICENSES",
     "icons/icon_64.8cMy4ycy230.png",
     "icons/icon_120.8cMy4ycy230.png",
@@ -20,13 +20,13 @@
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.c2e9cd8ce008723fe215.js",
+    "manifest.16fbba1aafb54f7c2db4.js",
     "vendor.2f0191b224a85871c14a.js",
-    "app.53cc914bd4147ce55c84.js"
+    "app.91c40625becd49eda5fb.js"
   ],
   "async": [
-    "pages/index.95107b978a9334d1d183.js",
-    "layouts/default.fcc61cf9a780752dba24.js"
+    "pages/index.9da0b10b3f7b0f6a5911.js",
+    "layouts/default.52f27cd459eb5605367b.js"
   ],
   "modules": {
     "16233649": [
