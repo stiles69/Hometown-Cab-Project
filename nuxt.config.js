@@ -214,13 +214,79 @@ module.exports = {
       { name: 'googlebot', content: 'noimageindex' },
       { name: 'msvalidate.01', content: '72C489E3AD71ECCCBF1CE821FAB81C3F' }
     ],
+    script: [
+      { innerHTML: `{ "@context" : "http://schema.org",
+        "@type" : "LocalBusiness",
+        "name" : "Hometown Cab",
+        "telephone" : [ "515-210-4111", "641-275-9501" ],
+        "email" : "",
+        "address" : {
+          "@type" : "PostalAddress",
+          "addressLocality" : "Newton",
+          "addressRegion" : "Iowa",
+          "postalCode" : "50208",
+        },
+        "openingHoursSpecification" : [ {
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Sunday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        }, {
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Monday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        },{
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Tuesday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        },{
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Wednesday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        },{
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Thursday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        },{
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Friday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        },{
+          "@type" : "OpeningHoursSpecification",
+          "dayOfWeek" : {
+            "@type" : "DayOfWeek",
+            "name" : "Saturday"
+          },
+          "opens" : "T05:30",
+          "closes" : "T00:00"
+        } ]       
+      }`, type: 'application/ld+json' }
+    ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      /* {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
-      } */
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }      
     ]
   },
 
