@@ -1,25 +1,27 @@
-importScripts('/_nuxt/workbox.3ffff7b2.js')
+importScripts('/_nuxt/workbox.4c4f5ca6.js')
+
+
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/app.91c40625becd49eda5fb.js",
-    "revision": "b6f12d1b052586b8d0faa266b5477a51"
+    "url": "/_nuxt/app.aa2e6c533215345d2533.js",
+    "revision": "56f180918084be635506b49960f1f9ed"
   },
   {
-    "url": "/_nuxt/layouts/default.52f27cd459eb5605367b.js",
-    "revision": "8519f29842b75e667dccbada095ada9a"
+    "url": "/_nuxt/layouts/default.58e2d97a50accc81a79a.js",
+    "revision": "79a74b86bd2b51e8024d967e4804271f"
   },
   {
-    "url": "/_nuxt/manifest.16fbba1aafb54f7c2db4.js",
-    "revision": "10661092e78ff6e0af15882da4f73fbe"
+    "url": "/_nuxt/manifest.244f7b6c5e0ef65521f2.js",
+    "revision": "912028294f1f30f2df2aa2cc9fc23d07"
   },
   {
-    "url": "/_nuxt/pages/index.9da0b10b3f7b0f6a5911.js",
-    "revision": "5b5581153b533b71e95d4af5625403e9"
+    "url": "/_nuxt/pages/index.7050788e90d3f74f9e74.js",
+    "revision": "e9ad2d09ec1cd522fb3b332af369a54d"
   },
   {
-    "url": "/_nuxt/vendor.2f0191b224a85871c14a.js",
-    "revision": "e52306f5ba911427928f7cf63a4d97e7"
+    "url": "/_nuxt/vendor.489c7a645bd99ece1da7.js",
+    "revision": "b8f6da36d714716045b8784a49d4de1d"
   }
 ], {
   "cacheId": "hometown-cab-app-cache",

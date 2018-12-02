@@ -65,9 +65,6 @@
       <div class='title font-weight-medium'>{{ oneWayPrice }}</div>
     </v-card-title>
     <v-card-title>
-      <div class='title font-weight-medium'>{{ roundTripPrice }}</div>
-    </v-card-title>
-    <v-card-title>
       <div class='title font-weight-medium'>{{ additionalStopPrice }}</div>
     </v-card-title>
     <hr>

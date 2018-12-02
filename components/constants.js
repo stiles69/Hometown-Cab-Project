@@ -18,9 +18,9 @@ const hours = [
   'Thursday',
   '5:30 AM - 12:00 AM',
   'Friday',
-  '5:30 AM - 12:00 AM',  
+  '5:30 AM - 2:30 AM',  
   'Saturday',
-  '5:30 AM - 12:00 AM'
+  '5:30 AM - 2:30 AM'
 ]
 
 export default {
