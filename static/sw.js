@@ -1,3 +1,5 @@
+console.log('Hello from sw.js')
+
 importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 
