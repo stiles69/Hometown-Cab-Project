@@ -64,4 +64,4 @@ typings/
 sw.*
 
 #Google-Maps-Key
-*plugins*
+plugins/vue-google-maps.js
