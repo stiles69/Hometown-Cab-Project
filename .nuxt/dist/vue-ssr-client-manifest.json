@@ -3,30 +3,30 @@
   "all": [
     "icons/icon_120.8cMy4ycy230.png",
     "img/Cover-1600.d42092e.png",
-    "layouts/default.92927332e84f9f19e715.js",
-    "vendor.f9ea9189e23bd176dceb.js",
-    "app.aa2e6c533215345d2533.js",
-    "manifest.4dc50bb62ea5166d103b.js",
+    "layouts/default.2b81bccb824708139d2d.js",
+    "vendor.d00e1f036b276ec1bc63.js",
+    "app.9450280e715fd2cd7157.js",
+    "manifest.de7a0dbb66472b97b29b.js",
     "LICENSES",
     "icons/icon_64.8cMy4ycy230.png",
-    "pages/index.443715d4376835a1a93d.js",
+    "pages/index.00ea9dc9c6fedac68645.js",
     "icons/icon_144.8cMy4ycy230.png",
     "icons/icon_152.8cMy4ycy230.png",
     "icons/icon_192.8cMy4ycy230.png",
     "icons/icon_384.8cMy4ycy230.png",
     "icons/icon_512.8cMy4ycy230.png",
-    "manifest.7159fa65.json",
+    "manifest.6ac030bc.json",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.4dc50bb62ea5166d103b.js",
-    "vendor.f9ea9189e23bd176dceb.js",
-    "app.aa2e6c533215345d2533.js"
+    "manifest.de7a0dbb66472b97b29b.js",
+    "vendor.d00e1f036b276ec1bc63.js",
+    "app.9450280e715fd2cd7157.js"
   ],
   "async": [
-    "layouts/default.92927332e84f9f19e715.js",
-    "pages/index.443715d4376835a1a93d.js"
+    "layouts/default.2b81bccb824708139d2d.js",
+    "pages/index.00ea9dc9c6fedac68645.js"
   ],
   "modules": {
     "16233649": [
@@ -114,9 +114,6 @@
     "12fef92a": [
       3
     ],
-    "0c836f22": [
-      4
-    ],
     "20460e42": [
       3
     ],
@@ -158,9 +155,6 @@
     ],
     "76e7a9de": [
       4
-    ],
-    "3d99f2a1": [
-      3
     ],
     "e022e02e": [
       4
@@ -415,16 +409,10 @@
     "646ce495": [
       3
     ],
-    "a75e1472": [
+    "7abf3b65": [
       3
     ],
     "2ea586e5": [
-      3
-    ],
-    "68f21116": [
-      3
-    ],
-    "12dacbd6": [
       3
     ],
     "5a171609": [
@@ -476,6 +464,9 @@
       4
     ],
     "4655f6a2": [
+      3
+    ],
+    "a75e1472": [
       3
     ],
     "2e82ebaf": [
@@ -538,9 +529,6 @@
     ],
     "3221a684": [
       4
-    ],
-    "7abf3b65": [
-      3
     ]
   }
 }

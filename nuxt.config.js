@@ -18,76 +18,7 @@ module.exports = {
     clientsClaim: true,
     skipWaiting: true,
     directoryIndex: 'index.html',
-    cacheId: 'hometown-cab-app-cache',
     offlineGoogleAnalytics: true,
-    runtimeCaching: [
-      {
-        // Match any same-origin request that contains 'api'.
-        urlPattern: /_nuxt/,
-        // Apply a network-first strategy.
-        handler: 'networkFirst',
-        options: {
-          // Fall back to the cache after 10 seconds.
-          networkTimeoutSeconds: 10,
-          // Use a custom cache name for this route.
-          cacheName: '_nuxt-cache',
-          // Configure custom cache expiration.
-          expiration: {
-            maxEntries: 5,
-            maxAgeSeconds: 60
-          },
-          // Configure which responses are considered cacheable.
-          cacheableResponse: {
-            statuses: [0, 200],
-            headers: { 'x-test': 'true' }
-          },
-          // Configure the broadcast cache update plugin.
-          broadcastUpdate: {
-            channelName: 'hometown-cab-update-channel'
-          },
-          // matchOptions and fetchOptions are used to configure the handler.
-          fetchOptions: {
-            mode: 'no-cors'
-          },
-          matchOptions: {
-            ignoreSearch: true
-          }
-        }
-      },
-      {
-        // Match any same-origin request that contains 'img'.
-        urlPattern: /img/,
-        // Apply a network-first strategy.
-        handler: 'networkFirst',
-        options: {
-          // Fall back to the cache after 15 seconds.
-          networkTimeoutSeconds: 15,
-          // Use a custom cache name for this route.
-          cacheName: '_nuxt-cache',
-          // Configure custom cache expiration.
-          expiration: {
-            maxEntries: 5,
-            maxAgeSeconds: 60 * 60 * 24 * 7 // One week
-          },
-          // Configure which responses are considered cacheable.
-          cacheableResponse: {
-            statuses: [0, 200],
-            headers: { 'x-test': 'true' }
-          },
-          // Configure the broadcast cache update plugin.
-          broadcastUpdate: {
-            channelName: 'hometown-cab-update-channel-img'
-          },
-          // matchOptions and fetchOptions are used to configure the handler.
-          fetchOptions: {
-            mode: 'no-cors'
-          },
-          matchOptions: {
-            ignoreSearch: true
-          }
-        }
-      }
-    ]
   },
 
   //Meta
@@ -117,7 +48,7 @@ module.exports = {
     name: 'Hometown Cab',
     shortname: 'HometownCab',
     display: 'standalone',
-    start_url: '.',
+    start_url: 'index.html',
     background_color: '#efe79c',
     icons: [
       /*  {

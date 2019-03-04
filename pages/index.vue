@@ -32,11 +32,11 @@
     </v-toolbar>
     <v-card-text>
       <p class='title font-weight-medium'>        
-	      <v-icon>phone</v-icon><a href='tel:' {{ telnum1 }}>{{ telnum1 }}</a><span> </span>
+	      <v-icon>phone</v-icon><a href='tel:5152104111'>{{ telnum1 }}</a><span> </span>
         <v-btn flat icon color='#AC8F0F' v-on:click='customTextToClipboard1' aria-label='Copy Telephone Number 2'><v-icon>content_copy</v-icon></v-btn>
       </p>
       <p class='title font-weight-medium'>
-	      <v-icon>phone</v-icon><a href='tel:' {{ telnum2 }}>{{ telnum2 }}</a><span> </span>
+	      <v-icon>phone</v-icon><a href='tel:6412759501'>{{ telnum2 }}</a><span> </span>
         <v-btn flat icon color='#AC8F0F' v-on:click='customTextToClipboard2' aria-label='Copy Telephone Number 1'><v-icon>content_copy</v-icon></v-btn>
       </p>
     </v-card-text>
@@ -126,6 +126,18 @@
     </v-card-text>
   </v-card>
   <!-- End Testimonials -->
+  <!-- Start GeoLocation -->
+  <v-card id='Location' raised color='white'>
+    <v-toolbar dark color='primary' aria-label='Location Toolbar'>
+      <v-toolbar-title class='title black--text'>GeoLocation</v-toolbar-title>      
+    </v-toolbar>
+  <v-card-text>
+    <v-btn flat icon color='#AC8F0F' v-on:click='getLocation' aria-label='Get Location Button'><v-icon>my_location</v-icon></v-btn>
+    <div id='startLat'></div>
+    <div id='startLon'></div>
+  </v-card-text>
+
+  </v-card>
   <!-- End Main Content -->
   </v-app> 
 </template>
@@ -191,7 +203,24 @@ export default {
 				log.err
 			}
 			document.body.removeChild(textArea)
-		}
+    },
+    getLocation: function() {
+    var startPos;
+    var geoSuccess = function(position) {
+      startPos = position;
+      document.getElementById('startLat').innerHTML = startPos.coords.latitude;
+      document.getElementById('startLon').innerHTML = startPos.coords.longitude;
+    };
+    var geoError = function(error) {
+      console.log('Error occurred. Error code: ' + error.code);
+      // error.code can be:
+      //   0: unknown error
+      //   1: permission denied
+      //   2: position unavailable (error response from location provider)
+      //   3: timed out
+    };
+    navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
 	}
-}
+}}
+
 </script>
