@@ -15,8 +15,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.8",
     "@nuxtjs/vuetify": "^0.4.2",
-    "nuxt": "^1.4.2",
-    "vue2-google-maps": "^0.10.6"
+    "nuxt": "^1.4.2"
   },
   "devDependencies": {
     "@nuxtjs/google-tag-manager": "^2.0.0",
@@ -29,6 +28,7 @@
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.22.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^3.0.2",
+    "vue2-google-maps": "^0.10.6"
   }
 }

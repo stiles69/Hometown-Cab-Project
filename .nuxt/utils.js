@@ -393,7 +393,7 @@ function tokensToFunction(tokens) {
         continue
       }
 
-      var value = data[token.name || 'pathMatch']
+      var value = data[token.name]
       var segment
 
       if (value == null) {
