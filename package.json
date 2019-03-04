@@ -13,20 +13,20 @@
     "cloud_deploy": "/home/brettsalemink/bin/google-cloud/Update-Hometown-Cab-Website.sh '/home/brettsalemink/development/stiles69/Hometown-Cab-Project/dist'"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.0.8",
-    "@nuxtjs/vuetify": "^0.4.2",
-    "nuxt": "^1.4.2"
+    "@nuxtjs/pwa": "^3.0.0-beta.10",
+    "@nuxtjs/vuetify": "^0.5.5",
+    "nuxt": "^2.4.5"
   },
   "devDependencies": {
     "@nuxtjs/google-tag-manager": "^2.0.0",
-    "@nuxtjs/sitemap": "^0.1.1",
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
+    "@nuxtjs/sitemap": "^0.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.2",
     "html-webpack-plugin": "^3.2.0",
-    "style-loader": "^0.22.1",
+    "style-loader": "^0.23.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue2-google-maps": "^0.10.6"

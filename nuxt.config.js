@@ -235,7 +235,7 @@ module.exports = {
   /* Added by Brett Salemink
    * plugins
    */
-
+  plugins: ['~/plugins/vue-google-maps.js'],
   /*
   ** Build configuration
   */
@@ -252,9 +252,6 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    extend() {
-	    transpile: [/^vue2-google-maps($|\/)/]
     }
   }
 }

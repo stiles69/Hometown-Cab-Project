@@ -16,6 +16,7 @@ import nuxt_plugin_swplugin_57ab06be from 'nuxt_plugin_swplugin_57ab06be' // Sou
 import nuxt_plugin_nuxticons_c73be67a from 'nuxt_plugin_nuxticons_c73be67a' // Source: ./nuxt-icons.js
 import nuxt_plugin_googletagmanager_5cc9d426 from 'nuxt_plugin_googletagmanager_5cc9d426' // Source: ./google-tag-manager.js (ssr: false)
 import nuxt_plugin_vuetify_3cf73f8d from 'nuxt_plugin_vuetify_3cf73f8d' // Source: ./vuetify.js
+import nuxt_plugin_vuegooglemaps_5681e189 from 'nuxt_plugin_vuegooglemaps_5681e189' // Source: ../plugins/vue-google-maps.js
 
 
 // Component: <no-ssr>
@@ -139,6 +140,7 @@ async function createApp (ssrContext) {
   
   if (typeof nuxt_plugin_nuxticons_c73be67a === 'function') await nuxt_plugin_nuxticons_c73be67a(app.context, inject)
   if (typeof nuxt_plugin_vuetify_3cf73f8d === 'function') await nuxt_plugin_vuetify_3cf73f8d(app.context, inject)
+  if (typeof nuxt_plugin_vuegooglemaps_5681e189 === 'function') await nuxt_plugin_vuegooglemaps_5681e189(app.context, inject)
   
   if (process.browser) { 
     if (typeof nuxt_plugin_swplugin_57ab06be === 'function') await nuxt_plugin_swplugin_57ab06be(app.context, inject)
